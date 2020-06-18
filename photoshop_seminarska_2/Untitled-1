@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+    .span{
+      color: #C4A90D;
+    }
+
+    span:hover{
+      color: #D77911 !important;
+      text-decoration: none;
+    }
+
+  </style>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body style="background-color: #282828;">
+    <div class="container-fluid" style="background-color: #1C272C;">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top" style="background-color: #02162B;">
+            <!-- Links -->
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              
+          
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  More
+                </a>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" onClick="document.getElementById('home').scrollIntoView()">Home</a>
+                  <a class="dropdown-item" onClick="document.getElementById('Editing').scrollIntoView()">Bruh</a>
+                  <a class="dropdown-item" onClick="document.getElementById('Video').scrollIntoView()">Bruh</a>
+                </div>
+              </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+              <li>
+                <a href="https://www.adobe.com/products/photoshop.html?gclid=CjwKCAjw_qb3BRAVEiwAvwq6VrepV_sQPz87qgwU9PqEkqWV41YTiDhHQcJ-z78ZorUxbfxlfJea9xoCmKgQAvD_BwE&sdid=KKQIL&mv=search&ef_id=CjwKCAjw_qb3BRAVEiwAvwq6VrepV_sQPz87qgwU9PqEkqWV41YTiDhHQcJ-z78ZorUxbfxlfJea9xoCmKgQAvD_BwE:G:s&s_kwcid=AL!3085!3!356301872087!e!!"><img id="icon" src="logo.png" width="100px" style="margin-right: 60px;"></a>
+              </li>
+          </ul>
+          </nav>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="container-fluid text-center">
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <a href="BIG_YOSHI.jpg">
+      <img src="BIG_YOSHI.jpg" alt="FAT" width="1100" height="500">
+        </a>
+    </div>
+    <div class="carousel-item">
+     <a href="meme_man_in_Space.jpg">
+      <img src="meme_man_in_Space.jpg" alt="MAN" width="1100" height="500">
+        </a>
+    </div>
+    <div class="carousel-item">
+     <a href="Keenu_Reeve.png"> 
+      <img src="Keenu_Reeve.png" alt="Keenu Reeve" width="1100" height="500">
+    </a>
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<div class="container text-center">
+      <h1 style="color:#3096D5">Photoshop</h1>
+    <p style="color:#969696">Photoshop je orodje za oblikovanje ter urejevanje slik, ki so ga razvili pri podjetju Adobe Systems za Windows in MacOS leta 1988 </p>
+      
+    </div>
+      <div style="background-color: #02162B; color: #d8d8d8; " class="container-fluid text-center">
+
+        ©Filip Vrabec <br>
+        <span><a class="span" href="https://github.com/jackTr210">https://github.com/jackTr210</a></span>
+        </div>
+      </div>
+
+</body>
+</html>
